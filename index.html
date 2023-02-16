@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
+    <script src="./index.js" defer></script>
+
+    <title>CravEaty</title>
+  </head>
+  <body>
+    <nav class="nav container f-center">
+      <img class="nav__img" src="./assets/Logo.png" alt="logo">
+      <ul class="nav__list f-center">
+        <li class="nav__list-item">
+          <a class="nav__list-item_link" href="#home">home</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="nav__list-item_link" href="#about">about</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="nav__list-item_link" href="#recipes">recipes</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="nav__list-item_link" href="#contact">contact</a>
+        </li>
+      </ul>
+    </nav>
+    <header class="header f-center" id="home">
+      <div class="header__glass"></div>
+      <div class="header__content">
+        <img class="header__content-img" src="./assets/logo1.png" alt="logo">
+        <h1 class="header__content-title">Eat what you crave. We'll give you the recipes.</h1>
+      </div>
+    </header>
+    <section class="about f-center" id="about">
+      <h1 class="about__title container">what we do</h1>
+      <div class="about__desc f-center container">
+        <div>
+          <h1 class="about__desc-letter">C</h1>
+        </div>
+        <div class="about__desc-content f-center">
+          <p>Food can impact us in many ways and we can make food choices for many reasons. What is clear is that there is a strong emotional and social connection to food.</p>
+          <p>In truth food is not just about understanding what we should eat, it is also about appreciating the connection between nutrition, our thoughts and emotions and social interactions.</p>
+          <p>CravEaty aims to provide recipes that features the different types of cuisines that this wonderful world has to offer. Explore the various food choices by any country and learn how to cook it for your own delight. We also assure you that every recipes that's been published is good for your health without sacrificing the true taste of any dishes.</p>
+        </div>
+      </div>
+    </section>
+    <section class="recipes container f-center" id="recipes">
+      <h1 class="recipes__title">OUR RECIPE <br>
+        COLLECTIONS</h1>
+      <div class="recipes__content swiper">
+        <div class="swiper-button-prev">
+          <i class='bx bx-chevron-left'></i>
+        </div>
+        <div class="container recipes__content-images swiper-wrapper"></div>
+        <div class="swiper-button-next">
+          <i class='bx bx-chevron-right'></i>
+        </div>
+      </div>
+    </section>
+    <section class="contact f-center" id="contact">
+      <div class="contact__content container f-center">
+        <h1 class="contact__content-title">Contact Us.</h1>
+        <div class="contact__content-info f-center">
+          <h2 class="contact__content-info_title">For any content suggestions or recommendations, feel free to send us a message below.</h2>
+          <div class="contact__content-info_forms">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.1583090278!2d-74.1197637963364!3d40.697663748629545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sdz!4v1676546024592!5m2!1sen!2sdz" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form class="contact__content-info_forms-form f-center">
+              <div class="contact__content-info_forms-form_fields f-center">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Message" rows="7"></textarea>              
+              </div>
+              <div class="contact__content-info_forms-form_fields-submit" >
+                <button type="submit">Send</button>              
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__container-media f-center">
+          <img src="./assets/Logo.png" alt="logo">
+          <p>Craveaty, 2021, All Rights Reserved.</p>
+          <div class="f-center">
+            <i class='bx bxl-facebook-square'></i>
+            <i class='bx bxl-instagram-alt'></i>
+            <i class='bx bxl-twitter'></i>
+            <i class='bx bxl-google'></i>
+          </div>
+        </div>
+        <div class="footer__container-subscribe f-center">
+          <h2>SUBSCRIBE & GET FREE PERKS</h2>
+          <form class="f-center">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email Address">
+            <button type="submit">send</button>
+          </form>
+        </div>
+        <div class="footer__container-nav">
+          <ul>
+            <li>
+              <h1>Menu</h1>
+            </li>
+            <li>
+              <a href="#home">home</a>
+            </li>
+            <li>
+              <a href="#about">about</a>
+            </li>
+            <li>
+              <a href="#recipes">recipes</a>
+            </li>
+            <li>
+              <a href="#contact">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
